@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.exercicio-01  {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 0px;
+ & li {
+    margin: 0 10px;
+  }
+}
+
+.exercicio-02  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.container-exercicio-1, .container-exercicio-2 {
+  background-color: antiquewhite;
+  margin: 0px 10px;
+  height: 100px;
+  min-width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+}
